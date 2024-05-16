@@ -13,7 +13,25 @@
 #menu li {
 	display: inline-block; /* Ensures the list items are displayed horizontally */
 }
-
+section
+{
+    margin: auto;
+    text-align: center;
+}
+#about{
+    font-size: 30px;
+}
+#spa {
+    margin: auto;
+    text-align: center;
+    direction: ltr;
+}
+span {
+  width: 40%;
+  border-bottom: 3px solid navy;
+  display: inline-block;
+  margin-bottom: 4px;
+}
 .title {
 	position:relative;
 	width: 100%;
@@ -25,11 +43,7 @@
   align-items: center;
   writing-mode: horizontal-tb;
 }
-#playlist{
-	margin: auto;
-    text-align: center;
-}
-#like{
-	margin: auto;
+#spa{
+	direction: ltr;
     text-align: center;
 }
